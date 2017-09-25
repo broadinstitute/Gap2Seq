@@ -52,7 +52,7 @@ add_definitions (${gatb-core-flags})
 
 # htslib
 set (HTSLIB_HOME ${PROJECT_SOURCE_DIR}/thirdparty/htslib/)
-link_directories (${HTSLIB_HOME})
+#link_directories (${HTSLIB_HOME})
 
 include_directories (SYSTEM src  ${gatb-core-includes} ${HTSLIB_HOME})
 
